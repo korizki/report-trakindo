@@ -27,7 +27,7 @@
                     <h3>Filter Report Data</h3>
                 </div>
             </div>
-            <h2 class="head"><i class="uil uil-building"></i> Summary {{activePage.company}}</h2>
+            <h2 class="head"><i class="uil uil-building"></i>{{activePage.company}} - Summary</h2>
             <div class="boxtable">
               <table v-if="activePage">
                 <thead>
