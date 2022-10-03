@@ -1,0 +1,130 @@
+*{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(77, 77, 77);
+}
+h1, h1>i{
+    /* color: rgb(255, 183, 50); */
+}
+html{
+    scroll-behavior: smooth;
+    font-size: 14px;
+}
+.adj{
+    display: inline-block;
+    margin-right: 4px;
+}
+.aleft{
+    margin-left: 4px;
+}
+.uil-user-circle{
+    transform: translateY(-2px);
+}
+.navigation{
+    padding: 12px 5%;
+    box-shadow: 0 2px 5px 0 #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.maincontent{
+    margin: 24px 0;
+    margin-left: 5%;
+    width: 90%;
+}
+.navigation>div{
+    display:flex;
+    align-items: center;
+}
+.filterbox{
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid rgb(240,240,240);
+    background: rgb(250,250,250);
+    margin: 24px 0;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+table>thead>tr, table>tbody>tr{
+    border-bottom: 1px solid rgb(245, 245, 245);
+    text-align: center;
+}
+table>thead>tr>th{
+    background: rgb(245,245,245)
+}
+table>thead>tr>th, table>tbody>tr>td{
+    padding: 12px;
+    transition: all 0.3s;
+}
+table>tbody>tr>td:first-child{
+    text-align: left;
+    padding-left: 24px;
+}
+table>tbody>tr>td:hover{
+    background: rgb(253, 189, 71);
+    cursor: pointer
+}
+i{
+    color: inherit;
+    display: inline-block;
+    margin-right: 4px;
+}
+.head{
+    margin: 16px 0;
+    color: orange;
+}
+.heads{
+    background: rgb(253, 189, 71);
+}
+.heads>td{
+    text-align: left;
+}
+.heads>td>h3{
+    color: white
+}
+.sect{
+    margin-top: 24px;
+    color: rgb(77, 77, 77);
+}
+.chart{
+    object-fit: contain;
+    margin: 50px 0 100px 0;
+}
+.navs{
+    display: flex;
+    justify-content: center;
+    padding: 8px 16px;
+    gap:24px;
+    background: rgb(247,247,247);
+}
+a{
+    cursor: pointer;
+    text-decoration: none !important;
+}
+.navs>a{
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.active{
+    background: dodgerblue;
+    color: white;
+    border: 1px solid dodgerblue;
+}
+.waiting{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 250px;
+    transform: translateY(-150px);
+    align-items: center;
+    justify-content: center;
+}
